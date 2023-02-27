@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+void netflix_n_chill(){
+    int alice,bob,charlie,x;
+    cin >> alice >> bob >> charlie >> x;
+    if(alice + bob >= x || bob + charlie >= x || alice + charlie >=x){
+        cout << "YES\n";
+    }
+    else cout << "NO\n";
+}
+
+int main() {
+	// your code goes here
+	int daddy; cin >> daddy;
+	while(daddy--)
+	netflix_n_chill();
+	return 0;
+}
